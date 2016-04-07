@@ -1,0 +1,17 @@
+{
+  "name": "fatboystudios.com",
+  "version": "0.0.1",
+  "description": "Fatboy Studios website",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/metalsmith/bin/metalsmith",
+    "deploy": "sh deploy.sh"
+  },
+  "author": "lukasz.kaniowski@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-layouts": "^1.4.2"
+  }
+}

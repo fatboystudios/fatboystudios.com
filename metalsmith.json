@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "title": "fatboystudios.com",
+    "description": "Fatboy Studios website"
+  },
+  "plugins": {
+    "metalsmith-layouts": {
+      "engine": "handlebars"
+    }
+  }
+}
